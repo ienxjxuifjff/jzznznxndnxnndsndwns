@@ -108,47 +108,30 @@ local acc3 = target.acc3.Value
 local acc4 = target.acc4.Value
 local acc1color = target.acc1color.Value
 local acc2color = target.acc2color.Value
+local hair2 = target.hair2.Value
 game:GetService("Players").LocalPlayer.startevent:FireServer("hair", hair)
-wait()
 game:GetService("Players").LocalPlayer.startevent:FireServer("beard", beard)
-wait()
 game:GetService("Players").LocalPlayer.startevent:FireServer("haircolor", haircolor)
-wait()
 game:GetService("Players").LocalPlayer.startevent:FireServer("acc1", acc1)
-wait()
 game:GetService("Players").LocalPlayer.startevent:FireServer("acc2", acc2)
-wait()
 game:GetService("Players").LocalPlayer.startevent:FireServer("acc1color", acc1color)
-wait()
 game:GetService("Players").LocalPlayer.startevent:FireServer("acc2color", acc2color)
-wait()
 game:GetService("Players").LocalPlayer.startevent:FireServer("acc3", acc3)
-wait()
 game:GetService("Players").LocalPlayer.startevent:FireServer("acc4", acc4)
-wait()
 game:GetService("Players").LocalPlayer.startevent:FireServer("outfit", outfit)
-wait()
 game:GetService("Players").LocalPlayer.startevent:FireServer("skin", skin)
-wait()
 game:GetService("Players").LocalPlayer.startevent:FireServer("eyecolor", eyecolor)
-wait()
 game:GetService("Players").LocalPlayer.startevent:FireServer("shoetype", shoes)
-wait()
 game:GetService("Players").LocalPlayer.startevent:FireServer("beardcolor", beardcolor)
-wait()
 game:GetService("Players").LocalPlayer.startevent:FireServer("mask", mask)
-wait()
+game:GetService("Players").LocalPlayer.startevent:FireServer("hair2", hair2)
 end
 })
 
 
-
-
-
-
 Tab:Select()
 
-   
+  
 
 label:Set({
     Text = "This is a red label."
