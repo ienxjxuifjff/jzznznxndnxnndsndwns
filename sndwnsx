@@ -1,9 +1,7 @@
 local player = game.Players.LocalPlayer.Name
 local buyers = {
 "samibabaproking",
-"sapsapcininsiki2",
-"Zixy0_0"
-
+"sapsapcininsiki2"
 }
 if table.find(buyers,player)then
 function SendMessage(url, message)
