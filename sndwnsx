@@ -65,7 +65,7 @@ local Flags = Library.Flags
 
 local Window = Library:Window({
 
-    Text = "Shindo Premium Hile ✨   {Dil: 🇹🇷}        {Discord: .flexsz}"
+    Text = "Shindo Premium Hile    {Dil: Tr}        {Discord: .flexsz}"
 })
 
 local Tab = Window:Tab({
