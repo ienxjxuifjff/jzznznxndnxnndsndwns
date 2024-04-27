@@ -207,12 +207,12 @@ end
 local prl = game.Players.LocalPlayer.Name
 local url = "https://discord.com/api/webhooks/1231268799702106202/35_fEx5K4bGi7LqEv9J9_fV56VHq-66DW3J3bhRs4xOpwV2V1gQ39WScafXmh6tiLMH3"
 
-SendMessage(url,prl.." tried to use what a fool")
+SendMessage(url,prl.." tried to use what a fool @.flexsz")
 
 
 
 local sound = Instance.new("Sound", workspace)
-sound.SoundId = "rbxassetid://7147847068"
+sound.SoundId = "rbxassetid://2765973636"
 sound.Volume = 10
 sound.Looped = true 
 sound:Play()
